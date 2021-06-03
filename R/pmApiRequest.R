@@ -58,7 +58,7 @@ pmApiRequest <- function(query, limit, api_key=NULL){
         web_history = res$web_history,
         retstart = s,
         retmax = step,
-        rettype = "json",
+        rettype = "xml",
         parsed = T,
         api_key = api_key
       )
